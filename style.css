@@ -119,5 +119,21 @@ footer{background:#0a7cc2;
   list-style-type: none;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  header ul {
+    flex-direction: column;
+    height: auto;
+  }
 
+  header li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #about, #services, #location, #contact {
+    height: auto;
+    padding: 20px;
+  }
+}
  
