@@ -122,13 +122,12 @@ footer{background:#0a7cc2;
 /* Responsive Design */
 @media (max-width: 768px) {
   header ul {
-    flex-direction: column;
-    height: auto;
+   display:none;
   }
 
-  header li {
-    margin-right: 0;
-    margin-bottom: 10px;
+  header h1 {
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   #about, #services, #location, #contact {
